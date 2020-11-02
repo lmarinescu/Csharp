@@ -1,0 +1,10 @@
+C:\Users\lmarinescu\Desktop\Curs C# ONE\TicTacToes\bin\Debug\TicTacToes.exe.config
+C:\Users\lmarinescu\Desktop\Curs C# ONE\TicTacToes\bin\Debug\TicTacToes.exe
+C:\Users\lmarinescu\Desktop\Curs C# ONE\TicTacToes\bin\Debug\TicTacToes.pdb
+C:\Users\lmarinescu\Desktop\Curs C# ONE\TicTacToes\obj\Debug\TicTacToes.csprojAssemblyReference.cache
+C:\Users\lmarinescu\Desktop\Curs C# ONE\TicTacToes\obj\Debug\TicTacToes.TicTacToes.resources
+C:\Users\lmarinescu\Desktop\Curs C# ONE\TicTacToes\obj\Debug\TicTacToes.Properties.Resources.resources
+C:\Users\lmarinescu\Desktop\Curs C# ONE\TicTacToes\obj\Debug\TicTacToes.csproj.GenerateResource.cache
+C:\Users\lmarinescu\Desktop\Curs C# ONE\TicTacToes\obj\Debug\TicTacToes.csproj.CoreCompileInputs.cache
+C:\Users\lmarinescu\Desktop\Curs C# ONE\TicTacToes\obj\Debug\TicTacToes.exe
+C:\Users\lmarinescu\Desktop\Curs C# ONE\TicTacToes\obj\Debug\TicTacToes.pdb
