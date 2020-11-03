@@ -15,11 +15,18 @@ namespace TicTacToes
     {
         bool turn = true; // while true = x turne, false = y turn
         int turn_count = 0;
+        static string player1, player2;
 
 
         public TicTacToes()
         {
             InitializeComponent();
+        }
+
+        public static void setPlayersNames(string n1, string n2)
+        {
+            player1 = n1;
+            player2 = n2;
         }
 
         private void aboutToolStripMenuItem_Click(object sender, EventArgs e)
@@ -94,12 +101,12 @@ namespace TicTacToes
                 string winner = "";
                 if (turn)
                 {
-                    winner = "Player 2, O";
+                    winner = player2;
                     o_win_count.Text = (Int32.Parse(o_win_count.Text) + 1).ToString();
                 }
                 else
                 {
-                    winner = "Player 1, X";
+                    winner = player1;
                     x_win_count.Text = (Int32.Parse(x_win_count.Text) + 1).ToString();
                 }
                 MessageBox.Show(winner + " wins!", "You WON!");
@@ -180,6 +187,14 @@ namespace TicTacToes
             o_win_count.Text = "0";
             x_win_count.Text = "0";
             draw_count.Text = "0";
+        }
+
+        private void TicTacToes_Load(object sender, EventArgs e)
+        {
+            Players p = new Players();
+            p.ShowDialog();
+            X_win.Text = player1;
+            O_win.Text = player2;
         }
     }
 }

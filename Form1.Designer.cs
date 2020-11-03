@@ -231,31 +231,40 @@
             // 
             this.X_win.AutoSize = true;
             this.X_win.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.X_win.Location = new System.Drawing.Point(13, 294);
+            this.X_win.Location = new System.Drawing.Point(1, 294);
+            this.X_win.MaximumSize = new System.Drawing.Size(86, 13);
+            this.X_win.MinimumSize = new System.Drawing.Size(86, 13);
             this.X_win.Name = "X_win";
             this.X_win.Size = new System.Drawing.Size(86, 13);
             this.X_win.TabIndex = 10;
             this.X_win.Text = "(X) Win Count";
+            this.X_win.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // O_win
             // 
             this.O_win.AutoSize = true;
             this.O_win.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.O_win.Location = new System.Drawing.Point(105, 294);
+            this.O_win.Location = new System.Drawing.Point(93, 294);
+            this.O_win.MaximumSize = new System.Drawing.Size(87, 13);
+            this.O_win.MinimumSize = new System.Drawing.Size(87, 13);
             this.O_win.Name = "O_win";
             this.O_win.Size = new System.Drawing.Size(87, 13);
             this.O_win.TabIndex = 11;
             this.O_win.Text = "(O) Win Count";
+            this.O_win.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // Draw
             // 
             this.Draw.AutoSize = true;
             this.Draw.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Draw.Location = new System.Drawing.Point(198, 294);
+            this.Draw.MaximumSize = new System.Drawing.Size(73, 13);
+            this.Draw.MinimumSize = new System.Drawing.Size(73, 13);
             this.Draw.Name = "Draw";
             this.Draw.Size = new System.Drawing.Size(73, 13);
             this.Draw.TabIndex = 12;
             this.Draw.Text = "Draw Count";
+            this.Draw.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // x_win_count
             // 
@@ -288,7 +297,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(278, 368);
+            this.ClientSize = new System.Drawing.Size(278, 332);
             this.Controls.Add(this.draw_count);
             this.Controls.Add(this.o_win_count);
             this.Controls.Add(this.x_win_count);
@@ -311,6 +320,7 @@
             this.ShowIcon = false;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Tic Tac Toew";
+            this.Load += new System.EventHandler(this.TicTacToes_Load);
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
             this.ResumeLayout(false);
