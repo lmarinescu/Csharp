@@ -123,20 +123,7 @@ namespace TicTacToes
 
         }//end for checkForWinner
 
-        private void disableButtons()
-        {
-
-
-            try
-            {
-                foreach (Control c in Controls)
-                {
-                    Button b = (Button)c;
-                    b.Enabled = false;
-                }//end foreach
-            }//end try
-            catch { }
-        }
+        
 
         private void newGameToolStripMenuItem_Click(object sender, EventArgs e)
         {
@@ -181,9 +168,26 @@ namespace TicTacToes
                 b.Text = "";
             }
         }
+        private void disableButtons()
+        {
+            
+                foreach (Control c in Controls)
+                {
+                    try
+                    {
+                        Button b = (Button)c;
+                        b.Enabled = false;
+                    }
+                catch { }
+            }//end foreach
+                
+            //end try
+
+        }
 
         private void resetGameToolStripMenuItem_Click(object sender, EventArgs e)
         {
+
             o_win_count.Text = "0";
             x_win_count.Text = "0";
             draw_count.Text = "0";

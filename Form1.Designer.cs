@@ -77,21 +77,21 @@
             // newGameToolStripMenuItem
             // 
             this.newGameToolStripMenuItem.Name = "newGameToolStripMenuItem";
-            this.newGameToolStripMenuItem.Size = new System.Drawing.Size(136, 22);
+            this.newGameToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.newGameToolStripMenuItem.Text = "New Game";
             this.newGameToolStripMenuItem.Click += new System.EventHandler(this.newGameToolStripMenuItem_Click);
             // 
             // resetGameToolStripMenuItem
             // 
             this.resetGameToolStripMenuItem.Name = "resetGameToolStripMenuItem";
-            this.resetGameToolStripMenuItem.Size = new System.Drawing.Size(136, 22);
-            this.resetGameToolStripMenuItem.Text = "Reset Game";
+            this.resetGameToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.resetGameToolStripMenuItem.Text = "Reset Score";
             this.resetGameToolStripMenuItem.Click += new System.EventHandler(this.resetGameToolStripMenuItem_Click);
             // 
             // exitGameToolStripMenuItem
             // 
             this.exitGameToolStripMenuItem.Name = "exitGameToolStripMenuItem";
-            this.exitGameToolStripMenuItem.Size = new System.Drawing.Size(136, 22);
+            this.exitGameToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.exitGameToolStripMenuItem.Text = "Exit Game";
             this.exitGameToolStripMenuItem.Click += new System.EventHandler(this.exitGameToolStripMenuItem_Click);
             // 
